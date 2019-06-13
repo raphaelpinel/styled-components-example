@@ -6,13 +6,14 @@ import Wrapper from './components/Wrapper';
 import HeaderText from './components/HeaderText';
 
 const theme = {
-  font: 'Calibri',
+  font: 'Helvetica',
+  color: '#008CBA',
 };
 
 export default () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
-      <HeaderText>I am some header text!</HeaderText>
+      <HeaderText color="salmon">I am some header text!</HeaderText>
       <Button primary>Primary</Button>
       <Button secondary>Secondary</Button>
       <Button>Regular</Button>

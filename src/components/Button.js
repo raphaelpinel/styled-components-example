@@ -1,7 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export default styled.button`
-  background-color: ${props => (props.primary ? "#4caf50" : "#008CBA")};
+  background-color: ${props =>
+    (props.primary && '#4caf50') ||
+    (props.secondary && 'slateblue') ||
+    '#008CBA'};
   border: none;
   color: white;
   padding: 15px 32px;

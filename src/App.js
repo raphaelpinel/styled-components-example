@@ -14,6 +14,7 @@ export default () => (
     <Wrapper>
       <HeaderText>I am some header text!</HeaderText>
       <Button primary>Primary</Button>
+      <Button secondary>Secondary</Button>
       <Button>Regular</Button>
       <HeaderText>I am more header text!</HeaderText>
     </Wrapper>

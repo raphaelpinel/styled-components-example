@@ -13,7 +13,7 @@ const theme = {
 export default () => (
   <ThemeProvider theme={theme}>
     <Wrapper>
-      <HeaderText color="salmon">I am some header text!</HeaderText>
+      <HeaderText color="salmon">I am some header text now!</HeaderText>
       <Button primary>Primary</Button>
       <Button secondary>Secondary</Button>
       <Button>Regular</Button>
